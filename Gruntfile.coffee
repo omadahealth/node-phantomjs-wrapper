@@ -33,14 +33,13 @@ module.exports = (grunt) ->
         'test/setup.js'
         'build/**/*.js'
       ]
-        
+
     clean:
       all: ['build']
 
 
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-coffeelint'
-  grunt.loadNpmTasks 'grunt-coffee-build'
   grunt.loadNpmTasks 'grunt-coffee-build'
   grunt.loadNpmTasks 'grunt-mocha-debug'
   grunt.loadNpmTasks 'grunt-release'
