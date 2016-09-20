@@ -1,21 +1,21 @@
 {
   "name": "phantomjs-wrapper",
-  "version": "0.0.11",
-  "description": "Simple wrapper for a child phantomjs instance. Most of the page API/events are exposed in a transparent way",
+  "version": "0.0.12",
+  "description": "Simple wrapper for a child phantomjs instance. Most of the page API/events are exposed in a transparent way. Forked from tarruda",
   "main": "build/src/index",
-  "homepage": "https://github.com/tarruda/node-phantomjs-wrapper",
+  "homepage": "https://github.com/omadahealth/node-phantomjs-wrapper",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tarruda/node-phantomjs-wrapper.git"
+    "url": "git://github.com/omadahealth/node-phantomjs-wrapper.git"
   },
   "author": {
-    "name": "Thiago de Arruda",
-    "email": "tpadilha84@gmail.com"
+    "name": "Omada Health",
+    "email": "dev@omadahealth.com"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tarruda/node-phantomjs-wrapper/blob/master/LICENSE-MIT"
+      "url": "https://github.com/omadahealth/node-phantomjs-wrapper/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
@@ -34,7 +34,7 @@
     "URLON": "~1.0.1"
   },
   "dependencies": {
-    "phantomjs": "1.9.2-5",
+    "phantomjs": "~2.1",
     "line-stream": "0.0.3",
     "coffee-script": "~1.6.3"
   }
